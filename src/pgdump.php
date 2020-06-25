@@ -1,7 +1,7 @@
 <?php
 
 
-namespace SmartPgDump;
+namespace Craos\Smart\Backup;
 
 /**
  * Class pgDump
@@ -369,17 +369,10 @@ class pgDump
 
 
     /**
-     * @var pgServer
-     */
-    private $pgServer;
-
-    /**
      * pgBbackup constructor.
-     * @param pgServer $pg
      */
-    public function __construct(pgServer $pg)
+    public function __construct()
     {
-        $this->pgServer = $pg;
     }
 
     /**
