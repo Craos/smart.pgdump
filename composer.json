@@ -1,4 +1,49 @@
 {
+  "name": "craos/pgdump",
+  "description": "Executa o dump aprimorado do banco de dados PostgrSQL",
+  "keywords": [
+    "PostgreSQL",
+    "pgdump",
+    "dump",
+    "craos",
+    "oberdanbrito"
+  ],
+  "homepage": "https://github.com/Craos/smart.pgdump",
+  "type": "library",
+  "license": "LGPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Oberdan Brito",
+      "email": "oberdan@craos.net",
+      "homepage": "https://craos.net"
+    }
+  ],
   "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+  },
+  "suggest": {
+  },
+  "autoload": {
+  },
+  "autoload-dev": {
+  },
+  "provide": {
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.x-dev"
+    }
+  },
+  "scripts": {
+    "lint": [
+    ],
+    "test": [
+    ]
+  },
+  "config": {
+    "sort-packages": true,
+    "platform-check": false
   }
 }
