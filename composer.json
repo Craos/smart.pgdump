@@ -26,6 +26,9 @@
   "suggest": {
   },
   "autoload": {
+    "psr-4": {
+      "craos\\": "src/"
+    }
   },
   "autoload-dev": {
   },
